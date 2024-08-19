@@ -1,9 +1,9 @@
-package org.mockito;
+package org.Main;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class ConsumoInternet {
 
     public static int calcularConsumoTotal(String[] consumo) {
         int total = 0;
