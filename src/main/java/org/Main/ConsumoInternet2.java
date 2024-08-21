@@ -30,5 +30,7 @@ public class ConsumoInternet2 {
         int consumoTotalMb = entrada.nextInt();
 
         verificarLimiteDados(limiteGb, consumoTotalMb);
+
+        entrada.close();
     }
 }
